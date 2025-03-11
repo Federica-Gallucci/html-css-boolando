@@ -79,4 +79,102 @@ ul {
 
 /* MAIN */
 
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+
+.card-top {
+  display: flex;
+  font-size: 20%;
+  padding-bottom: 30px;
+}
+
+.card-bottom {
+  display: flex;
+}
+
+.fig {
+  padding-right: 20px;
+  position: relative;
+}
+
+.card-discount {
+  position: absolute;
+  left: 0;
+  bottom: 120px;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+}
+
+.sustainability {
+  position: absolute;
+  left: 25px;
+  bottom: 120px;
+  background-color: green;
+  color: white;
+  font-size: 10px;
+}
+
+.heart {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  background-color: white;
+  font-size: 15px;
+}
+
+.card1 .card-hover1 {
+  display: none;
+}
+
+.card1:hover .card-hover1 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 20px;
+  bottom: 0;
+}
+
+.card2 .card-hover2 {
+  display: none;
+}
+
+.card2:hover .card-hover2 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 20px;
+  bottom: 0;
+}
+
+.card3 .card-hover3 {
+  display: none;
+}
+
+.card3:hover .card-hover3 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 20px;
+  bottom: 0;
+}
+
+.card4 .card-hover4 {
+  display: none;
+}
+
+.card4:hover .card-hover4 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 20px;
+  bottom: 0;
+}
 /* FOOTER */
