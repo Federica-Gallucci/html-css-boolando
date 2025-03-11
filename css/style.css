@@ -11,7 +11,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 a {
@@ -44,6 +44,9 @@ ul {
   padding-right: 10px;
 }
 
+.mx-10 {
+  margin: 0 10px;
+}
 /* HEADER */
 
 .menu {
@@ -66,6 +69,7 @@ ul {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -96,8 +100,8 @@ ul {
 }
 
 .fig {
-  padding-right: 20px;
   position: relative;
+  padding-left: 20px;
 }
 
 .card-discount {
@@ -126,11 +130,11 @@ ul {
   font-size: 15px;
 }
 
-.card1 .card-hover1 {
+.product-card .next-image {
   display: none;
 }
 
-.card1:hover .card-hover1 {
+.product-card:hover .next-image {
   display: block;
   position: absolute;
   top: 0;
@@ -139,69 +143,16 @@ ul {
   bottom: 0;
 }
 
-.card2 .card-hover2 {
-  display: none;
+.product {
+  font-size: 10px;
 }
 
-.card2:hover .card-hover2 {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 20px;
-  bottom: 0;
+.price {
+  color: red;
 }
 
-.card3 .card-hover3 {
-  display: none;
-}
-
-.card3:hover .card-hover3 {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 20px;
-  bottom: 0;
-}
-
-.card4 .card-hover4 {
-  display: none;
-}
-
-.card4:hover .card-hover4 {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 20px;
-  bottom: 0;
-}
-
-.card5 .card-hover5 {
-  display: none;
-}
-
-.card5:hover .card-hover5 {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 20px;
-  bottom: 0;
-}
-
-.card6 .card-hover6 {
-  display: none;
-}
-
-.card6:hover .card-hover6 {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 20px;
-  bottom: 0;
+.price-delete {
+  color: gray;
 }
 
 /* FOOTER */
