@@ -177,4 +177,31 @@ ul {
   right: 20px;
   bottom: 0;
 }
+
+.card5 .card-hover5 {
+  display: none;
+}
+
+.card5:hover .card-hover5 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 20px;
+  bottom: 0;
+}
+
+.card6 .card-hover6 {
+  display: none;
+}
+
+.card6:hover .card-hover6 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 20px;
+  bottom: 0;
+}
+
 /* FOOTER */
